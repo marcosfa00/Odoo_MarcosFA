@@ -1,0 +1,8 @@
+<odoo>
+    <data>
+     <record model="test_model" id="openacademy.nombres">
+         <field name="name">FERNANDO ALONSO</field>
+         <field name="description">33</field>
+     </record>
+    </data>
+</odoo>
