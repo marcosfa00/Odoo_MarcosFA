@@ -152,8 +152,8 @@ La carpeta Security se utiliza para definir los modelos de seguridad y los permi
 
 Bin, tambien vamso a trabajar con Security, aquí editaremos el archivo **id.model.access.csv** para que se vea de la siguiente manera:
 
-id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
-access_openacademy_openacademy,openacademy.openacademy,model_test_model,base.group_user,1,1,1,1
+    id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+    access_openacademy_openacademy,openacademy.openacademy,model_test_model,base.group_user,1,1,1,1
 
 
 
