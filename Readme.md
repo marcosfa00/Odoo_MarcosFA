@@ -1,4 +1,5 @@
-Para levantar tu servicio de Odoo con OpenAcademy y la configuración proporcionada, puedes seguir los siguientes pasos:
+Para levantar tu servicio de Odoo con OpenAcademy y la configuración p
+roporcionada, puedes seguir los siguientes pasos:
 
 1. **Preparación del entorno:**
    - Asegúrate de tener Docker y Docker Compose instalados en tu sistema.
@@ -126,6 +127,11 @@ La siguiente Linea falla, ya que no tenemso odoo instalado en Local, esta dentro
 
           from odoo import fields, models
 
+### DataBase
+Tras crear esta tabla **test_model** podemos verla en nuesra abse de datos postgres a la que estamos conectados con docker compose:
+![capturaPostgrestest_model.png](Pictures%2FcapturaPostgrestest_model.png)
+
+
 ## Views
 La carpeta Views contiene archivos XML que definen la interfaz de usuario. Estos archivos describen cómo se presentan los datos y las acciones en la interfaz de usuario, incluyendo formularios, listas y otras vistas.
 
@@ -180,7 +186,20 @@ TRAS ACTUALIZAR OPENACADEMY PODEMOS COMPORBAR COMO ESTE MODULO (AL HACER UN DOCK
 ![IMAGEN2.png](Pictures%2FIMAGEN2.png)
 
 FINALMENTE VEMOS COMO EFECTIVAMENTE APARECE LA FILA CON FERNANDO ALONSO CON DESCRIPCION 33 QUE DEFINIMOS EN DATOS.XML
+
 ![IMAGEN3.png](Pictures%2FIMAGEN3.png)
+
+LOS DATOS DE ESTA BASE DE DATOS SE PUEDEN EDITAR MANUALMENTE DESDE OPENACADEMY, COMO SE MUESTRA A CONTINUACIÓN
+
+![EL_NANO1.png](Pictures%2FEL_NANO1.png)
+
+AQUI VEMOS COMO HA QUEDADO REGISTRADO EL CAMBIO
+
+![EL_NANO2.png](Pictures%2FEL_NANO2.png)
+
+Y AQUÍ COMPORBAMSO QUE SE HAYA GUARDADO EN LA BASE DE DATOS
+
+![MOSTRAMOS_CAMBIO_ELNANO.png](Pictures%2FMOSTRAMOS_CAMBIO_ELNANO.png)
 
 ---
 MARCOS FDEZ. AVEDNAÑO
